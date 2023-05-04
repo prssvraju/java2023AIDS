@@ -1,3 +1,8 @@
+//Create a Connection: Firstly, we have to establish the connection using driver manager between the java application and MySQL database by providing the database name, username, and password for the database.
+//Create Statement: To fire a SQL query we first need to create a statement.
+//Execute Query: Write down the query and execute it, in our case, we will write an insert query.
+//Close Connection: At the end of executing, we must close the connection.
+
 import java.sql.*;
 
 class Ex13_1 {
